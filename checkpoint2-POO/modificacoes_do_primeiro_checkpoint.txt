@@ -1,0 +1,19 @@
+Enunciado
+   1 - Incluso método para comparação de idade entre jogadores.
+   2 - Incluso método para listagem de partidas já ocorridas e que ainda vão ocorrer!
+Uml
+   Correção / inclusão
+      1 - Corrigido o uml com feedback da professora, contrutores, atributos e etc estávam diferentes da implementação no código.
+      2 - Incluido novos campos de atributos e novos relacionamentos.
+Código
+      Classes
+	1- campeonato : Alterado atributos, adiconado metodo addPartida lancando exeception personalizada com classe
+                        CampeonatoEsception. Criado logica do metodo PartidaOcorrida.
+	
+	2- jogador : Incluso construtor vazio e mais 2 contrutores para atender o requisito de sobre carga do checkpoint.
+		     Criado a logica do compareTo para comparar 2 jogadores por idade, atendendo o requisito de sobreescrita.
+
+        3 - Program: Alterado classe de nome main para Program.
+		     Incluso o scanner para atender requisito de entradas do usuario.
+		     Incluso runtimeException para tratar valor equivocado informado pelo usuario.
+		     Incluso uma exception personalizada.
